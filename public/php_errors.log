@@ -1,0 +1,5 @@
+[07-Apr-2018 20:47:35 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\bagas\Apps\htdocs\pmw\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 532
+[07-Apr-2018 20:48:17 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\bagas\Apps\htdocs\pmw\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php on line 41
+[07-Apr-2018 21:12:37 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\bagas\Apps\htdocs\pmw\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 532
+[07-Apr-2018 21:38:03 Asia/Jakarta] PHP Fatal error:  Trait 'PMW\Http\Controllers\FileHandler' not found in C:\Users\bagas\Apps\htdocs\pmw\app\Http\Controllers\LaporanMagangController.php on line 35
+[07-Apr-2018 21:38:24 Asia/Jakarta] PHP Fatal error:  Trait 'PMW\Http\Controllers\FileHandler' not found in C:\Users\bagas\Apps\htdocs\pmw\app\Http\Controllers\LaporanMagangController.php on line 35

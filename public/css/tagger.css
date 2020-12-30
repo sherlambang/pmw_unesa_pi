@@ -1,0 +1,54 @@
+.tagger{
+    background-color: #fff;
+    border:1px solid #f0f0f0;
+    padding: 5px;
+    width:300px;
+}
+
+.tagger::after{
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+.tagger input[type="text"]{
+    background-color: #fff;
+    border:none;
+    outline: none;
+    padding:10px;
+    float: left;
+    max-width: 100px;
+}
+
+.tagger .tag{
+    background-color: #4caf50;
+    padding:10px;
+    color:#fff;
+    float: left;
+    width:auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+.tagger .tag:hover{
+    background-color: #4caf50
+}
+
+.tagger .tag span{
+    margin-right:10px;
+}
+
+.tagger .tag i{
+    cursor: pointer;
+    background-color: rgba(0,0,0,.15);
+    padding:3px;
+    border-radius: 3px;
+}
+
+.tagger .tag i:hover{
+    background-color: rgba(0,0,0,.25);
+}

@@ -1,0 +1,15 @@
+{
+    "name": "smadia/laravel-google-drive-connector",
+    "description": "Connector for Laravel with Google Drive API",
+    "type": "library",
+    "license": "GNU",
+    "require": {
+        "laravel/framework": ">=5.2",
+        "nao-pon/flysystem-google-drive": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smadia\\LaravelGoogleDrive\\": "src/"
+        }
+    }
+}

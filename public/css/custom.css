@@ -1,0 +1,78 @@
+.panel-default {
+    border-radius: 7px;
+    border-color: #d3e0e9;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #dcdcdc;
+    border-color: #d3e0e9;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.panel-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    background-color: #FAFAFA;
+}
+.form-group{
+    margin-top: 5px;
+}
+.form-control{
+    padding:10px !important;
+}
+.dropdown-menu{
+    max-height:250px;
+    overflow-y: scroll;
+}
+.jarak{
+    margin-right:10px;
+}
+
+.heading-no-padding {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.heading-no-padding + h2 {
+    margin-top: 0px;
+}
+
+#linimasa .alert {
+    margin-bottom: 0;
+}
+
+#linimasa > .card:not(:first-child) {
+    margin-top: 25px;
+    position: relative;
+}
+
+#linimasa > .card:not(:last-child)::after {
+    content: '';
+    width: 10px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -50px;
+    left: 40px;
+}
+
+#linimasa > .card:not(:first-child)::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#5cb860;
+    position:absolute;
+    top: -37px;
+    left: 33px;
+}
+
+#linimasa > .card .col-lg-8:last-child {
+    padding-left: 0;
+}
